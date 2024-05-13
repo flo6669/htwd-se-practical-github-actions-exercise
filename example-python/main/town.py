@@ -1,3 +1,4 @@
+#man bin ich schlau
 class Town:
     """
     Represents a town with name and number of residents.
