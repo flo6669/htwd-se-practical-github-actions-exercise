@@ -30,7 +30,7 @@ class Town:
 
     @residents.setter
     def residents(self, value):
-        self.__residents = value
+        self.__residents = 0 if value < 0 else value
 
     def __str__(self):
         """Returns a human readable string of the object."""
