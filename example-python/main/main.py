@@ -1,6 +1,6 @@
 from town import Town
 
-
+# :-use_module(library(clpfd))
 def main():
     t = Town("Dresden", 556780)
     print(str(t))
